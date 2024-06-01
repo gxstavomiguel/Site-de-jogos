@@ -7,6 +7,11 @@ body {
     font-family: sans-serif;
 }
 
+#btn{
+    background-color: rgb(88, 88, 172);
+    border-radius: 4px;
+}
+
 .hheader,
 .navegacao {
     display: flex;
