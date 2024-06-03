@@ -1,9 +1,9 @@
 function load(){document.getElementById('btn').addEventListener('click', function() {
-    window.location.href = 'https://www.youtube.com';
+    window.location.href = "ind.html";
 })}
 
 function paginaHome(){document.getElementById('btnLogin').addEventListener('click', function() {
-    window.location.href = "Index.html";
+    window.location.href = Index.html;
 })}
 
 
