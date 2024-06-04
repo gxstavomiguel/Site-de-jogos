@@ -1,6 +1,8 @@
-#formulario{
+#formulario {
     margin: 0;
     padding: 0;
-    align-items: end;
-    background-color: rgb(145, 191, 231);
+    align-items: center; /* Alterei para 'center' para centralizar os itens horizontalmente */
+    background-color: rgb(158, 173, 235);
+    display: flex;
+    flex-direction: column; /* Adicionei esta linha para garantir que os itens estejam em uma coluna */
 }
