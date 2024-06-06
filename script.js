@@ -2,14 +2,22 @@ function load(){document.getElementById('btn').addEventListener('click', functio
     window.location.href = "ind.html";
 })}
 
-function paginaHome(){document.getElementById('btnLogin').addEventListener('click', function() {
-    window.location.href = Index.html;
-})}
 
+
+
+var nome = document.getElementById('name').value
+var senha = document.getElementById('password').value
+
+console.log(nome, senha)
 
 function permitirLogin(nome, senha) {
-    if (nome == "Gustavo" & senha == "1234") {
+    if (nome == "Gustavo" && senha == 1234) {
         paginaHome();
+    } else {
+        alert("Nome ou senha incorretos");
     }
-    
 }
+
+function paginaHome(){
+    window.location.href = index.html;
+ }

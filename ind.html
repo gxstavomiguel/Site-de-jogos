@@ -10,14 +10,17 @@
     <h1>Vasco da Gama - Auge e queda</h1>
 
     <p>Tradicional clube de futebol Brasileiro</p>
-    <form id="formulario" action="" method="post">
+    <form  onsubmit="return permitirLogin()" id="formulario" action="" method="post">
 
         <label for="name">Name</label>
-        <input type="text">
+        <input type="text" id="name">
 
         <label for="password">Password</label>
-        <input type="text">
+        <input type="text" id="password">
+        <button onclick="permitirLogin()">Login</button>
 
     </form>
+
+    <script src="script.js"></script>
 </body>
 </html>
