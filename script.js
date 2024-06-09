@@ -2,7 +2,7 @@ var nome = document.getElementById("name").value;
 var senha = document.getElementById("password").value;
 
 console.log(nome, senha);
-window.alert(nome, senha)
+window.alert(nome, senha)/
 
 function permitirLogin(nome, senha) {
   if (nome == "Gustavo" && senha == 1234) {
@@ -15,5 +15,7 @@ function permitirLogin(nome, senha) {
 function paginaHome() {
   window.location.href = index.html;
 }
+
+
 
 
